@@ -1,50 +1,78 @@
 {
-    // Workbench
-    "workbench.colorTheme": "Cursor Dark Midnight",
-    "workbench.editor.showTabs": "multiple",
-    "workbench.sideBar.location": "right",
-    "workbench.tree.indent": 15,
-    "workbench.startupEditor": "none",
+	// Workbench
+	"workbench.colorTheme": "Cursor Dark Midnight",
+	"workbench.editor.showTabs": "multiple",
+	"workbench.sideBar.location": "right",
+	"workbench.tree.indent": 15,
+	"workbench.startupEditor": "none",
 
-    // Editor
-    "editor.fontFamily": "Geist Mono Light",
-    "editor.fontLigatures": false,
-    "editor.cursorStyle": "block",
-    "editor.fontSize": 18,
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": true,
-    "editor.minimap.enabled": false,
-    "editor.wordWrap": "on",
-    "editor.trimAutoWhitespace": true,
-    "editor.renderWhitespace": "all",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.suggestSelection": "first",
-    "editor.inlineSuggest.suppressSuggestions": true,
+	// Editor
+	"editor.fontFamily": "Geist Mono Light",
+	"editor.fontLigatures": false,
+	"editor.cursorStyle": "block",
+	"editor.fontSize": 18,
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"editor.wordWrap": "on",
+	"editor.trimAutoWhitespace": true,
+	"editor.renderWhitespace": "all",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.suggestSelection": "first",
+	"editor.inlineSuggest.suppressSuggestions": true,
 
-    // Terminal
-    "terminal.integrated.scrollback": 1000000000,
-    "terminal.integrated.fontSize": 15,
+	// Terminal
+	"terminal.integrated.scrollback": 1000000000,
+	"terminal.integrated.fontSize": 15,
 
-    // Window
-    "window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
-    "window.zoomLevel": -1,
+	// Window
+	"window.title": "${folderName} ${separator} ${activeEditorMedium} ${dirty} ${separator} ${appName}",
+	"window.zoomLevel": -1,
 
-    // Languages
-    "typescript.preferences.importModuleSpecifier": "non-relative",
+	// Languages
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.experimental.useTsgo": true,
 
-    // Git
-    "git.confirmSync": false,
-    "git.openRepositoryInParentFolders": "never",
+	// Git
+	"git.confirmSync": false,
+	"git.openRepositoryInParentFolders": "never",
 
-    // Breadcrumbs
-    "breadcrumbs.enabled": false,
+	// Breadcrumbs
+	"breadcrumbs.enabled": false,
 
-    // Security
-    "security.workspace.trust.untrustedFiles": "open",
-    "security.workspace.trust.banner": "never",
-    "security.workspace.trust.enabled": false,
+	// Security
+	"security.workspace.trust.untrustedFiles": "open",
+	"security.workspace.trust.banner": "never",
+	"security.workspace.trust.enabled": false,
 
-    // Explorer
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
+	// Explorer
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+
+	// Formatter
+	"editor.defaultFormatter": "biomejs.biome",
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[graphql]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	}
 }
